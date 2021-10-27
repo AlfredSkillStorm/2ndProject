@@ -3,7 +3,8 @@ import Field from "./components/Field";
 function App() {
   return (
     <div className="App">
-      <Field />
+      <Field text='User Name: '/>
+        <Field text='Password: '/>
     </div>
   );
 }
