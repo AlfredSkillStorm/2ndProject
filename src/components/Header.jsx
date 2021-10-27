@@ -9,7 +9,6 @@ function Header(props) {
     }
     return <div>
         <Button theStyle={customStyle} text="Anything"/>
-       
     </div>
 }
 

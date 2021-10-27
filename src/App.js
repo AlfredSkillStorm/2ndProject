@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <Form>
-        <Field />
+        <Field text='User Name: '/>
+        <Field text='Password: '/>
+        <Header/>
       </Form>
     </div>
   );
