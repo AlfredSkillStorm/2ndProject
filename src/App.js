@@ -1,14 +1,21 @@
 import Field from "./components/Field";
 import { Form } from './components/Form/Form';
-import Header from './components/Header';
+import Button from "./components/button/button";
+import './app.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className="loginBgr">
+    <div className='loginPosition'>
+      <h3>Please Log in</h3>
       <Form>
-        <Field text='User Name: '/>
-        <Field text='Password: '/>
+        Username:
+        <Field />
+        Password:
+        <Field />
       </Form>
+      <Button text='Login'/>
+    </div>
     </div>
   );
 }
